@@ -14,7 +14,13 @@ arrowGetFullName(p2); // => 'Charlie Brown'
 
 ***********************************************************************/
 
-// Your code here 
+//declare func with fat arrow syntax
+let arrowGetFullName = (person) => {
+
+//return from obj frist and last name
+    return person.firstName + " " + person.lastName;
+
+}
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 
